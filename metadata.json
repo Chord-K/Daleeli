@@ -2,6 +2,7 @@
   "name": "Daleeli دليلي",
   "description": "A comprehensive bilingual local guide for the Middle East, offering personalized recommendations for restaurants, attractions, and events using Gemini-powered Google Maps grounding.",
   "requestFramePermissions": [
-    "geolocation"
+    "geolocation",
+    "camera"
   ]
 }

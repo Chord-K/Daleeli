@@ -6,6 +6,13 @@ export interface Location {
   longitude: number;
 }
 
+export interface UserProfile {
+  name: string;
+  email: string;
+  avatar: string | null;
+  preferences: string[];
+}
+
 export interface GroundingChunk {
   maps?: {
     uri: string;
